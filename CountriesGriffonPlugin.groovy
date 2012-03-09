@@ -67,7 +67,7 @@ Country names are 18n aware. The default language is English, there are no addit
 Provide a suitable `griffon.plugins.countries.countrynames_<locale>.properties` file for your Locale if
 you wish to use a different translation for a Country name.
 
-### Missing flags
+### Missing flags
 
 The following country codes have no flags assigned to them because the Flag icon collection does not provide one.
 
@@ -77,7 +77,7 @@ The following country codes have no flags assigned to them because the Flag icon
  * JE - Jersey
  * SS - South Sudan
 
-### Non-standard country names
+### Non-standard country names
 
 This plugin assigns the following non standard country names to some additional flags found in the Flag icon set.
 Be warned that these country codes are not sanctioned by ISO 3166-1 alpha-2.
