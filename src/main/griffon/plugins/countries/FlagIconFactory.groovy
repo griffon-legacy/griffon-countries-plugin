@@ -19,12 +19,12 @@ package griffon.plugins.countries
 import groovy.swing.factory.ImageIconFactory
 
 /**
- * @author Andres.Almiray
+ * @author Andres Almiray
  */
 class FlagIconFactory extends ImageIconFactory {
     public Object newInstance(FactoryBuilderSupport builder, Object name, Object value, Map attributes) {
         String code = attributes.remove('code') ?: value 
-  
+
         if(!code) throw new IllegalArgumentException("In $name you must define a node value or code:")
 
         if(code.endsWith('.png')) code -= '.png'

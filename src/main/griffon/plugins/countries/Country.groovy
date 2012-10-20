@@ -17,7 +17,7 @@
 package griffon.plugins.countries
 
 /**
- * @author Andres.Almiray
+ * @author Andres Almiray
  */
 class Country {
     public static final Country AD = new Country('AD')
@@ -229,6 +229,7 @@ class Country {
     public static final Country SN = new Country('SN')
     public static final Country SO = new Country('SO')
     public static final Country SR = new Country('SR')
+    public static final Country SS = new Country('SS')
     public static final Country ST = new Country('ST')
     public static final Country SV = new Country('SV')
     public static final Country SY = new Country('SY')
@@ -293,12 +294,12 @@ class Country {
         NR, NU, NZ, OM, PA, PE, PF, PG, PH, PK,
         PL, PM, PN, PR, PS, PT, PW, PY, QA, RE,
         RO, RS, RU, RW, SA, SB, SC, SD, SE, SG,
-        SH, SI, SJ, SK, SL, SM, SN, SO, SR, ST,
-        SV, SY, SZ, TC, TD, TF, TG, TH, TJ, TK,
-        TL, TM, TN, TO, TR, TT, TV, TW, TZ, UA,
-        UG, UM, US, UY, UZ, VA, VC, VE, VG, VI,
-        VN, VU, WF, WL, WS, XL, YE, YT, ZA, ZM,
-        ZW
+        SH, SI, SJ, SK, SL, SM, SN, SO, SR, SS,
+        ST, SV, SY, SZ, TC, TD, TF, TG, TH, TJ,
+        TK, TL, TM, TN, TO, TR, TT, TV, TW, TZ,
+        UA, UG, UM, US, UY, UZ, VA, VC, VE, VG,
+        VI, VN, VU, WF, WL, WS, XL, YE, YT, ZA,
+        ZM, ZW
     ]
 
     final String code
